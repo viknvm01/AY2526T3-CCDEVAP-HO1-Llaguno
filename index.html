@@ -13,6 +13,7 @@
         </nav>
     </header>
     
+    <a id="intro"></a>
     <aside class="intro">
         <img src="images/pfp.png" alt="Profile Picture" />
         <p>Hello<br>my name is...</p>
@@ -21,57 +22,60 @@
     </aside>
 
     <section class="this-that">
-        <table>
-            <tr>
-                <th>Option A</th>
-                <th>Option B</th>
-                <th>Mas Bet Ko!</th>
-            </tr>
+        <form action="/selected" method="post">
+            <table>
+                <tr>
+                    <th>Option A</th>
+                    <th>Option B</th>
+                    <th>Mas Bet Ko!</th>
+                </tr>
 
-            <tr>
-                <td>Front-End</td>
-                <td>Back-End</td>
-                <td>
-                    <select name="q1" id="q1">
-                        <option value="" disabled selected hidden>-- select an option --</option>
-                        <option value="front-end">Front-End</option>
-                        <option value="back-end">Back-End</option>
-                    </select>
-                </td>
-            </tr>
+                <tr>
+                    <td>Front-End</td>
+                    <td>Back-End</td>
+                    <td>
+                        <select name="q1" id="q1">
+                            <option value="" disabled selected hidden>-- select an option --</option>
+                            <option value="front-end">Front-End</option>
+                            <option value="back-end">Back-End</option>
+                        </select>
+                    </td>
+                </tr>
 
-            <tr>
-                <td>phpMyAdmin</td>
-                <td>MySQL Workbench</td>
-                <td>
-                    <select name="q2" id="q2">
-                        <option value="" disabled selected hidden>-- select an option --</option>
-                        <option value="phpmyadmin">phpMyAdmin</option>
-                        <option value="mysql-workbench">MySQL Workbench</option>
-                    </select>
-                </td>
-            </tr>
+                <tr>
+                    <td>phpMyAdmin</td>
+                    <td>MySQL Workbench</td>
+                    <td>
+                        <select name="q2" id="q2">
+                            <option value="" disabled selected hidden>-- select an option --</option>
+                            <option value="phpmyadmin">phpMyAdmin</option>
+                            <option value="mysql-workbench">MySQL Workbench</option>
+                        </select>
+                    </td>
+                </tr>
 
-            <tr>
-                <td>Coding</td>
-                <td>Debugging</td>
-                <td>
-                    <select name="q3" id="q3">
-                        <option value="" disabled selected hidden>-- select an option --</option>
-                        <option value="coding">Coding</option>
-                        <option value="debugging">Debugging</option>
-                    </select>
-                </td>
-            </tr>
-        </table>
-    </section>
+                <tr>
+                    <td>Coding</td>
+                    <td>Debugging</td>
+                    <td>
+                        <select name="q3" id="q3">
+                            <option value="" disabled selected hidden>-- select an option --</option>
+                            <option value="coding">Coding</option>
+                            <option value="debugging">Debugging</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
 
-    <span class="range">
-        <label for="rangeInput">How much do I enjoy coding?</label> <br>
-        <output for="rangeInput">1</output>
-        <input type="range" id="rangeInput" name="rangeInput" min="1" max="5" step="0.5">
-        <output for="rangeInput">5</output>
-    </span>
+            <label for="rangeInput">How much do I enjoy coding?</label> <br>
+            <output for="rangeInput">1</output>
+            <input type="range" id="rangeInput" name="rangeInput" min="1" max="5" step="0.5">
+            <output for="rangeInput">5</output>
+
+        </form>
+    </section> <br>
+    
+    <a href="#intro"> Back to Profile </a>
 
     <footer>
         <p>CCDEVAP &copy; 2026</p>
