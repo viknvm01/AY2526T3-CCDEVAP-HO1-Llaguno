@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>currents</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html">Home</a> |
-            <a href="currents.html">Currents</a>
+            <a href="currents.html" class="active">Currents</a>
         </nav>
     </header>
 
-    <span>
-        <h3>Current Favorite Song</h3>
-        <p>Cup of Joe - Sandali</p>
-        <audio controls>
-            <source src="audio/COJ-SANDALI.mp4" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio> <br>
-        <a href="https://open.spotify.com/track/4moE3CWd46jNbbZJ7SXvjG?si=d3870950128f4cb3" target="_blank">Listen on Spotify</a>
-    </span>
+    <div class="container">
+        <span>
+            <h3>Current Favorite Song</h3>
+            <p>Cup of Joe - Sandali</p>
+            <audio controls>
+                <source src="audio/COJ-SANDALI.mp4" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio> <br>
+            <a href="https://open.spotify.com/track/4moE3CWd46jNbbZJ7SXvjG?si=d3870950128f4cb3" target="_blank">Listen on Spotify</a>
+        </span>
 
-    <span>
-        <h3>Concert</h3>
-        <video controls width="250">
-            <source src="video/SVT-BEAUTIFUL.mp4" type="video/mp4">
-            Your browser does not support the video element.
-    </span>
+        <span>
+            <h3>Concert</h3>
+            <video controls width="250">
+                <source src="video/SVT-BEAUTIFUL.mp4" type="video/mp4">
+                Your browser does not support the video element.
+        </span>
 
-    <aside class="currents">
-        <h3>Current Show I'm Watching</h3>
-        <img src="images/derry-girls.png" alt="Derry Girls" />
-    </aside>
+        <aside class="currents">
+            <h3>Current Show I'm Watching</h3>
+            <img src="images/derry-girls.png" alt="Derry Girls" />
+        </aside>
+    </div>
 
     <footer>
         <p>CCDEVAP &copy; 2026</p>

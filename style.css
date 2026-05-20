@@ -1,0 +1,135 @@
+
+body {
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    outline: 1px solid black;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    /* font-size:25px; */
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(180, 65, 180);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    justify-items: center;
+}
+ 
+th, td {
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 23px;
+    border: 1px solid black;
+}
+
+select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    margin-top: 70px;
+    margin-left: 150px;
+    outline: 2px solid black;
+    background-color: white;
+}
+
+.intro img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: 1px solid black;
+    margin: 20px 100px;
+}
+
+.intro hr {
+    width: 99.5%;
+    border: 1px solid black;
+}
+
+.intro p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.this-that {
+    display: block;
+    width: 1010px;
+    margin: 90px;
+    outline: 1px solid black;
+    background-color: white;
+}
+
+.range {
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    margin: 0 90px;
+    outline: 2px solid black;
+    background-color: white;
+}
+
+.range label {
+    font-size: 24px;
+    display: block;
+}
+
+.range output {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.range input[type="range"] {
+    width: 300px;
+    accent-color: rgb(180, 65, 180);;
+}
